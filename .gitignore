@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+site/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Virtual environments
+.venv/
+env/
+ENV/
+venv/
+env.bak/
+venv.bak/
+.env
+.envrc
+
+# IDEs
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Python tooling
+__pypackages__/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+.pdm-python
+.pdm-build/
+.pixi/
+.ruff_cache/
+.pypirc
+.cursorignore
+.cursorindexingignore
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Media / user uploads
+images/
+videos/
+uploads/
